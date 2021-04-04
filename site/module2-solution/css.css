@@ -1,0 +1,62 @@
+@media(min-width: 992px){
+    .options{
+        width: 33.33%;
+        box-sizing: border-box;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .options{
+        width: 50%;
+    }
+    #section3{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .options{
+        width: 100%;
+    }
+}
+
+body{
+    background-color: honeydew;
+}
+
+
+.options{
+    padding: 5px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.card{
+    border: 3px solid #ccccff;
+    padding: 10px;
+    background-color: #faebd7;
+}
+.cardTitle{
+    position: relative;
+    border: 3px solid #ccccff;
+    width: 50%;
+    text-align: center;
+    bottom: 13px;
+    right: -13px;
+    float: right;
+    font-size: 125%;
+    font-style: normal;
+    
+}
+.title {
+    text-align: center;
+    font-size: 175%;
+}
+#Chicken{
+    background-color: lemonchiffon;
+}
+#Beef{
+    background-color: lightpink;
+}
+#Sushi{
+    background-color: lightsalmon;
+}
