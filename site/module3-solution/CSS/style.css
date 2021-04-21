@@ -1,1 +1,43 @@
+#header-nav{
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand a,.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
 
+
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+    
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-header button{ 
+    background-color: beige;
+}
+
+.card{
+    border: 3px solid white;
+    padding: 10px;
+    background-color: beige;
+}
+
+@media only screen and (max-width: 767px){
+    div#collapsable-nav.navbar-collapse.collapse.in, div#collapsable-nav.navbar-collapse.collapsing {
+        background-color: beige;
+    }
+    .card{
+        border: 25px solid white;
+        padding: 10px;
+        background-color: beige;
+    }
+}
